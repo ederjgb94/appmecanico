@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783519324496",
+    "project_id": "mecapp-b424b",
+    "storage_bucket": "mecapp-b424b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783519324496:android:154f5ee6fd8df65d753455",
+        "android_client_info": {
+          "package_name": "com.example.appmecanico"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBon6_Uo0bi85bUtoQJ7JG1XSE_kyBMmCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
