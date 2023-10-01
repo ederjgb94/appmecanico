@@ -23,4 +23,8 @@ class LoginServices {
   bool isSignedIn() {
     return FirebaseAuth.instance.currentUser != null;
   }
+
+  void logout() {
+    FirebaseAuth.instance.signOut();
+  }
 }

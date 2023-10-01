@@ -1,4 +1,5 @@
 import 'package:appmecanico/app/data/services/login_services.dart';
+import 'package:appmecanico/app/routes/app_pages.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 
@@ -12,7 +13,9 @@ class LoginController extends GetxController {
   Future<void> login() async {
     if (GetPlatform.isAndroid) {
       await LoginServices().signInWithGoogle();
-      if (kDebugMode) print(LoginServices().isSignedIn());
+      if (LoginServices().isSignedIn()) {
+        Get.offAndToNamed(Routes.HOME);
+      }
     } else {
       // LoginServices().signInWithApple(); [ATENDER A ESTE CASO]
     }
