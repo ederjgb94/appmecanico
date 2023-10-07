@@ -10,13 +10,16 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Stray Kids World Domination'),
+        title: const Text('Stray Kids World Domination 👀'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'Stray Kids Everywhere All Around The World',
-          style: TextStyle(fontSize: 20),
+          'Stray Kids Everywhere All Around The World\n🐈',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: 20,
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
