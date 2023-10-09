@@ -14,8 +14,8 @@ Future<void> main() async {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: Themes().lightTheme,
-      darkTheme: Themes().darkTheme,
+      theme: lightTheme,
+      darkTheme: darkTheme,
       title: "Application",
       initialRoute: AppPages.initial,
       getPages: AppPages.routes,
